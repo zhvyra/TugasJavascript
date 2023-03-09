@@ -24,3 +24,8 @@ console.log("Luas Jajar Genjang = ", LuasJajarGenjang(alasjajargenjang, tinggija
 //Luas Segitiga
 const LuasSegitiga = (alas, tinggi) => {
     return (alas * tinggi) / 2
+}
+const alassegitiga = prompt("Masukan Alas Segitiga : ")
+const tinggisegitiga = prompt("Masukan Tinggi Segitiga : ")
+
+console.log("Luas Segitiga = ", LuasSegitiga(alassegitiga,tinggisegitiga))
