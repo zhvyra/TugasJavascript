@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a6e9b1;
+    color: #216643;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+
+button {
+    width: 100%;
+    margin: 0.2rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    border: 2px solid #6cdba4;
+    color: #253319;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button:hover {
+
+    color: #57a97d;
+    cursor: pointer;
+}
+
+input[name="hasil"]  {
+    background-color: #6cdba4;
+}
