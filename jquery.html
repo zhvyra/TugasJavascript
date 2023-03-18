@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="1.png" class="foto1" width="33%" />
+    <img src="2.png" class="foto2" width="33%" />
+    <img src="3.png" class="foto3" width="33%" />
+  </body>
+  <script src="jquery-3.6.4.min.js"></script>
+  <script>
+    $("document").ready(function () {
+      $(".foto1").click(function () {
+        $(".foto1").css("display", "none");
+      });
+
+      $(".foto2").click(function () {
+        $(".foto2").css("display", "none");
+      });
+
+      $(".foto3").click(function () {
+        $(".foto3").css("display", "none");
+      });
+    });
+  </script>
+</html>
